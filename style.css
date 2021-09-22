@@ -1,14 +1,4 @@
-body {
-  width: 100%;
-  height: auto;
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0px;
-  font-family: "Poppins", sans-serif;
-  background-color: black;
-}
-
-.landing {
+.section1 {
   width: 100vw;
   height: 100vh;
   display: -webkit-box;
@@ -24,7 +14,7 @@ body {
   background-position: bottom center;
 }
 
-.landing h1 {
+.section1 h1 {
   font-size: 3rem;
   font-weight: 600;
   width: 60%;
@@ -34,14 +24,14 @@ body {
   margin-right: auto;
 }
 
-.landing p {
+.section1 p {
   width: 50%;
   margin-bottom: 1%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.landing button {
+.section1 button {
   width: 25%;
   margin-left: auto;
   margin-right: auto;
@@ -56,12 +46,12 @@ body {
   font-size: 1.4em;
 }
 
-.landing button:hover {
+.section1 button:hover {
   opacity: .8;
   cursor: pointer;
 }
 
-.landing .section1text {
+.section1 .section1text {
   position: absolute;
   top: 10%;
   width: 100vw;
@@ -78,7 +68,7 @@ body {
           justify-content: space-evenly;
 }
 
-.landing .section1reviews {
+.section1 .section1reviews {
   background-color: rgba(0, 0, 138, 0.671);
   position: absolute;
   bottom: 0px;
@@ -88,12 +78,12 @@ body {
   color: white;
 }
 
-.landing .section1reviews h2 {
+.section1 .section1reviews h2 {
   font-weight: 400;
   font-size: large;
 }
 
-.landing .section1reviews ul {
+.section1 .section1reviews ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,21 +98,36 @@ body {
   list-style: none;
 }
 
-.landing .section1reviews ul li {
+.section1 .section1reviews ul li {
   width: 20vw;
 }
 
-.landing .section1reviews ul h3 {
+.section1 .section1reviews ul h3 {
   margin-bottom: 0;
 }
 
-.landing .section1reviews ul p {
+.section1 .section1reviews ul p {
   margin-top: 0%;
   width: 100%;
 }
 
-.landing .section1reviews ul .rating img {
+.section1 .section1reviews ul .rating img {
   max-height: 20px;
   width: auto;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+
+.section2 {
+  width: 100vw;
+  height: 100vh;
 }
 /*# sourceMappingURL=style.css.map */
