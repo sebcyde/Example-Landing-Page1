@@ -8,6 +8,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   text-align: center;
   background-image: url(assets/section1bg.jpg);
   background-size: cover;
@@ -76,6 +79,18 @@
   height: 27vh;
   border-top: 2px solid tomato;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly !important;
+      -ms-flex-pack: space-evenly !important;
+          justify-content: space-evenly !important;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .section1 .section1reviews h2 {
@@ -96,6 +111,9 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   list-style: none;
+  height: 100%;
+  margin-top: 2% !important;
+  margin-bottom: 0;
 }
 
 .section1 .section1reviews ul li {
@@ -123,11 +141,115 @@ body {
   margin: 0;
   padding: 0px;
   font-family: "Poppins", sans-serif;
-  background-color: black;
+  background-color: white;
 }
 
 .section2 {
   width: 100vw;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  background-image: url(assets/section2bg.jpg);
+  background-size: cover;
+}
+
+.section2 .section2text {
+  width: 30%;
+  height: 60%;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section2 .section2text h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.section2 .section2text button {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  background-color: #00008a;
+  color: white;
+  border: 2px solid tomato;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 2px 2px black;
+          box-shadow: 2px 2px 2px black;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4em;
+}
+
+.section2 .section2text button:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+.section2 .section2cards {
+  width: 60%;
+  height: 60%;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section2 .section2cards .card {
+  border: 2px solid #00008a;
+  -webkit-box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.637);
+          box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.637);
+}
+
+.section2 .section2cards .card:hover {
+  border: 2px solid tomato;
+}
+
+.section2 .section2cards img {
+  height: 150px;
+  width: auto;
+}
+
+.section2 .section2cards .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section2 .section2cards h5 {
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */

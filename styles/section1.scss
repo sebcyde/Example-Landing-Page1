@@ -3,6 +3,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     text-align: center;
     background-image: url(assets/section1bg.jpg);
     background-size: cover;
@@ -65,10 +66,16 @@
         height: 27vh;
         border-top: $orangeacentborder;
         color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly !important;
+        margin-top: auto;
+        margin-bottom: auto;
 
         h2 {
             font-weight: 400;
             font-size: large;
+
         }
 
         ul {
@@ -77,6 +84,9 @@
             padding: 0px;
             justify-content: space-evenly;
             list-style: none;
+            height: 100%;
+            margin-top: 2% !important;
+            margin-bottom: 0;
 
             li {
                 width: 20vw;
