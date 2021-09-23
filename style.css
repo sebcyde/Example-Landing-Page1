@@ -134,16 +134,6 @@
   width: auto;
 }
 
-body {
-  width: 100%;
-  height: auto;
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0px;
-  font-family: "Poppins", sans-serif;
-  background-color: white;
-}
-
 .section2 {
   width: 100vw;
   height: 100vh;
@@ -251,5 +241,138 @@ body {
 
 .section2 .section2cards h5 {
   font-weight: 600;
+}
+
+body {
+  max-width: 1000px;
+  height: auto;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+
+.section3 {
+  width: 100vw;
+  height: 100vh;
+  background-color: wheat;
+  text-align: center;
+}
+
+.section3 .hidden {
+  display: none;
+}
+
+.section3 > .carouselwithbuttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 98vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.section3 > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.section3 > div > div > img {
+  height: auto;
+  width: 3vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.section3 > div > div > img:hover {
+  cursor: pointer;
+}
+
+.section3 .section3carousel {
+  height: 70vh;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0 10px;
+}
+
+.section3 .section3carousel .t {
+  height: 90%;
+  width: 350px;
+  margin: auto;
+  padding-top: 1%;
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid #00008a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  overflow: hidden;
+  font-size: small;
+}
+
+.section3 .section3carousel .t h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.section3 .section3carousel .t h6 {
+  font-size: large;
+  font-weight: 550;
+}
+
+.section3 .section3carousel .t img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.section3 .section3carousel .t p {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section3 .section3carousel .left,
+.section3 .section3carousel .right {
+  opacity: .4;
+}
+
+.section3 .section3carousel .hidden {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
