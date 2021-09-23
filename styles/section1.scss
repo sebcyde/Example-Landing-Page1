@@ -1,3 +1,5 @@
+@import 'variables.scss';
+
 .section1 {
     width: 100vw;
     height: 100vh;
@@ -87,18 +89,24 @@
             height: 100%;
             margin-top: 2% !important;
             margin-bottom: 0;
+            align-content: center;
 
             li {
                 width: 20vw;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-content: center;
             }
 
             h3.person {
                 margin-bottom: 0;
-                font-size: small;
+                font-size: large;
             }
 
             p {
-                margin-top: 0%;
+
                 width: 100%;
             }
 

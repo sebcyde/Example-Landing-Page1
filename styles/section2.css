@@ -1,0 +1,131 @@
+section.section2 {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+
+section.section2 > div.container {
+  background-image: url(assets/section2bg.jpg);
+  background-size: cover;
+  margin: 0;
+  min-width: 100vw;
+}
+
+section.section2 > div.container > div.row {
+  min-height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+section.section2 .section2text {
+  max-height: 60%;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.section2 .section2text h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+section.section2 .section2text button {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  background-color: #00008a;
+  color: white;
+  border: 2px solid tomato;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 2px 2px black;
+          box-shadow: 2px 2px 2px black;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4em;
+}
+
+section.section2 .section2text button:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+section.section2 .section2cards {
+  max-height: 60%;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+section.section2 .section2cards .card {
+  border: 2px solid #00008a;
+  -webkit-box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.637);
+          box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.637);
+}
+
+section.section2 .section2cards .card:hover {
+  border: 2px solid tomato;
+}
+
+section.section2 .section2cards img {
+  height: 150px;
+  width: auto;
+}
+
+section.section2 .section2cards .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+section.section2 .section2cards h5 {
+  font-weight: 600;
+}
+/*# sourceMappingURL=section2.css.map */

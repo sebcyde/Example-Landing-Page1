@@ -1,0 +1,150 @@
+.section1 {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  background-image: url(assets/section1bg.jpg);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.section1 h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  width: 60%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section1 p {
+  width: 50%;
+  margin-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section1 button {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  background-color: #00008a;
+  color: white;
+  border: 2px solid tomato;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 2px 2px black;
+          box-shadow: 2px 2px 2px black;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4em;
+}
+
+.section1 button:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+.section1 .section1text {
+  position: absolute;
+  top: 10%;
+  width: 100vw;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section1 .section1reviews {
+  background-color: rgba(0, 0, 138, 0.671);
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  height: 27vh;
+  border-top: 2px solid tomato;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly !important;
+      -ms-flex-pack: space-evenly !important;
+          justify-content: space-evenly !important;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.section1 .section1reviews h2 {
+  font-weight: 400;
+  font-size: large;
+}
+
+.section1 .section1reviews ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  height: 100%;
+  margin-top: 2% !important;
+  margin-bottom: 0;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.section1 .section1reviews ul li {
+  width: 20vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.section1 .section1reviews ul h3.person {
+  margin-bottom: 0;
+  font-size: large;
+}
+
+.section1 .section1reviews ul p {
+  width: 100%;
+}
+
+.section1 .section1reviews ul .rating img {
+  max-height: 20px;
+  width: auto;
+}
+/*# sourceMappingURL=section1.css.map */
